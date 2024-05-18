@@ -7,28 +7,69 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sizing</title>
   </head>
-  <body>
+  <body class="mb-10 ml-10">
     <!-- Width -->
+    <div class="py-10">------Width-----</div>
+
+    <div class="bg-black text-white w-4">Hello</div>
+    <div class="bg-black text-white w-48">Hello</div>
+    <div class="bg-black text-white w-96">Hello</div>
 
     <!-- Percentages -->
-
+    <div class="py-10">------Percentages-----</div>
+    <div class="bg-green-700 text-white w-1/4">Hello</div>
+    <div class="bg-green-700 text-white w-1/3">Hello</div>
+    <div class="bg-green-700 text-white w-1/2">Hello</div>
     <!-- Width of the viewport -->
+    <div class="py-10">------Width of the viewport-----</div>
+
+    <div class="bg-blue-300 text-white w-screen">Hello</div>
 
     <!-- 100% of container -->
-
+    <div class="py-10">------100% of container-----</div>
+    <div class="bg-blue-500 text-white w-full">Hello</div>
     <!-- min/max content -->
-
+    <div class="py-10">------min/max content-----</div>
+    <div class="bg-emerald-500 text-white my-2 w-min">w-min</div>
+    <div class="bg-emerald-500 text-white my-2 w-max">w-max</div>
     <!-- Arbitrary width -->
+    <div class="py-10">------Arbitrary width----</div>
+    <div class="bg-blue-700 text-white w-[300px]">Hello</div>
 
     <!-- Max Width -->
-
+    <div class="py-5">------Max Width----</div>
+    <div class="bg-gray-100 max-w-lg mx-auto">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+      perferendis incidunt nihil ullam repellendus praesentium consectetur et
+      sed distinctio, magni iusto quos repellat officiis cum dolore aliquid
+      minus esse pariatur.
+    </div>
     <!-- Height (Most of the same options as widths) -->
-
+    <div class="py-10">
+      ------Height (Most of the same options as widths)----
+    </div>
+    <div class="flex items-end">
+      <div class="bg-orange-500 w-20 h-24">h-24</div>
+      <div class="bg-orange-500 w-20 h-32">h-32</div>
+      <div class="bg-orange-500 w-20 h-40">h-40</div>
+      <div class="bg-orange-500 w-20 h-48">h-48</div>
+      <div class="bg-orange-500 w-20 h-64">h-64</div>
+      <div class="bg-orange-500 w-20 h-80">h-80</div>
+    </div>
     <!-- Min Height -->
+    <div class="py-10">------Min Height----</div>
+    <div class="h-48 ">
+      <div class="h-24 bg-green-600 min-h-full">Tailwind is awesome</div>
+    </div>
 
     <!-- Max Height -->
-
+    <div class="py-10">------Max Height----</div>
+    <div class="h-24 ">
+      <div class="h-48 bg-green-500 max-h-full">Tailwind is awesome</div>
+    </div>
     <!-- Full screen height -->
+    <div class="py-10">------Full screen height----</div>
+    <div class="h-screen bg-blue-300">Hello</div>
   </body>
 </html>
 
